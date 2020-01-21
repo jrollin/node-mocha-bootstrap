@@ -1,5 +1,7 @@
 # simple nodejs setup with mocha tests
 
+[![CircleCI](https://circleci.com/gh/jrollin/node-mocha.svg?style=svg)](https://circleci.com/gh/jrollin/node-mocha)
+
 ## Dependencies 
 
 * mocha / chai for testing
