@@ -1,0 +1,35 @@
+{
+  "name": "nodemocha",
+  "version": "1.0.0",
+  "description": "Bootstrap for node with tests",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "mocha --watch",
+    "test:coverage": "nyc mocha"
+  },
+  "nyc": {
+    "include": [
+      "src/**/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrollin/node-mocha.git"
+  },
+  "keywords": [
+    "node",
+    "mocha"
+  ],
+  "author": "julien rollin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrollin/node-mocha/issues"
+  },
+  "homepage": "https://github.com/jrollin/node-mocha#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0",
+    "nyc": "^15.0.0"
+  }
+}
