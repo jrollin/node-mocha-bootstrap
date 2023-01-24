@@ -1,6 +1,6 @@
 # simple nodejs setup with mocha tests
 
-[![CircleCI](https://circleci.com/gh/jrollin/node-mocha.svg?style=svg)](https://circleci.com/gh/jrollin/node-mocha)
+[![Build Status](https://github.com/jrollin/node-mocha-bootstrap/actions/workflows/test.yml/badge.svg)](https://github.com/jrollin/node-mocha-bootstrap/actions/workflows/test.yml)
 
 ## Dependencies 
 
@@ -11,7 +11,7 @@
 ## Installation
 
 ```bash
-npm install
+npm ci
 ```
 
 ## Run tests 
